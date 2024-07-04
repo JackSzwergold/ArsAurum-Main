@@ -7,6 +7,12 @@ Robots: index,follow
 Template: index
 ---
 
+ - You can contact me [here](contact).
+ - You can check out my résumé [here](resume).
+ - You can check out bookmarks I find to be cool [here](bookmarks).
+
+***
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pellentesque tincidunt quam, eu porttitor ex sollicitudin vel. Aliquam libero orci, commodo at malesuada at, luctus non lacus. Nullam quis gravida purus. Sed venenatis orci urna, ac varius ante congue sit amet. Mauris auctor bibendum est, id ultrices velit facilisis ac. Morbi feugiat augue id lectus ultrices mollis. Nam quis nibh elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec neque nulla, maximus at justo vitae, rutrum ullamcorper augue. Duis et nunc dapibus, mattis odio sit amet, condimentum dui.
 
 Duis pharetra leo ut pretium rutrum. Mauris mi velit, laoreet ac massa vel, placerat auctor elit. Vivamus efficitur sodales nisi, quis tempus augue. Proin suscipit ante ex, eget interdum justo scelerisque id. Nullam ut ligula ut libero interdum molestie a ac nisi. Sed dignissim lectus sed turpis faucibus, id dapibus purus mattis. Donec venenatis maximus ex, vel porta leo sagittis a. Vestibulum ac consectetur orci. Pellentesque faucibus id massa dignissim ornare. Suspendisse ante sapien, ultricies sit amet nisl varius, sodales mattis tortor.

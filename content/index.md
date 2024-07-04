@@ -1,5 +1,5 @@
 ---
-Title: Arsaurum
+Title: Ars Aurum
 Description: This site is Jack Szwergold’s personal portfolio and professional calling card.
 Author: Jack Szwergold
 Date: 2024-07-04

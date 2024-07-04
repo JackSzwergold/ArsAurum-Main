@@ -8,8 +8,8 @@ Template: index
 ---
 
 ### Actual Mail
-Jack Szwergold<br />
-P.O. Box 595<br />
+Jack Szwergold  
+P.O. Box 595  
 New York, NY 10276
 
 ### Electronic Mail

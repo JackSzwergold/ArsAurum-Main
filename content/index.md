@@ -7,10 +7,6 @@ Robots: index,follow
 Template: index
 ---
 
-<div class="container-fluid">
-	<div class="row ">
-	    <div class="col p-0 m-0 text-left">
-			Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come.
-		</div>
-	</div>
-</div>
+
+Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come. Good things to come.
+

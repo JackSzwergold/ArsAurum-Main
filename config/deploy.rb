@@ -70,18 +70,6 @@ namespace :deploy do
   task :create_symlink do
     on roles(:app) do
 
-      # info "Link the image mosaic stuff to 'mosaic'."
-      execute "cd #{current_path} && ln -sf #{fetch(:web_builds)}/mosaic/#{fetch(:deployment_type)}/current #{fetch(:projects_path)}/mosaic"
-
-      # info "Link the arsaurum ascii art stuff to 'ascii'."
-      execute "cd #{current_path} && ln -sf #{fetch(:web_builds)}/ascii/#{fetch(:deployment_type)}/current #{fetch(:projects_path)}/ascii"
-
-      # info "Link the colorspace conversions stuff to 'colorspace'."
-      execute "cd #{current_path} && ln -sf #{fetch(:web_builds)}/colorspace/#{fetch(:deployment_type)}/current #{fetch(:projects_path)}/colorspace"
-
-      # info "Link the cheat sheets stuff to 'cheat_sheets'."
-      execute "cd #{current_path} && ln -sf #{fetch(:web_builds)}/cheat_sheets/#{fetch(:deployment_type)}/current #{fetch(:projects_path)}/cheat_sheets"
-
       # info "If there is no symbolic link called #{fetch(:short_name)}' and '#{fetch(:short_name)}' is a directory, delete that directory."
       execute "cd /var/www/#{fetch(:live_path)} && if [ ! -h #{fetch(:short_name)} ]; then if [ -d #{fetch(:short_name)} ]; then rm -rf ./#{fetch(:short_name)}; fi; fi"
 

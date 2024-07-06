@@ -30,7 +30,7 @@ Other than Emojipedia, this stuff is pretty boring and dry… Even to me! But th
  - [**DNS Propagation Checker**](https://dnschecker.org/): Tool to check DNS propagation.
  - [**MX Toolbox**](https://mxtoolbox.com/): MX lookup tool and other related stuff.
  - [**MaxMind’s GeoIP2 City Database Demo**](https://www.maxmind.com/en/geoip-demo/): GeoIUP lookup tool that can handle IPv6.
- - [**GeoIPLookup.io**](https://geoiplookup.io/): I good basic GeoIUP lookup tool.
+ - [**GeoIPLookup.io**](https://geoiplookup.io/): A good basic GeoIUP lookup tool.
  - [**Vultr: IPv4 Converter**](https://www.vultr.com/resources/ipv4-converter/): Very good IP address analysis and conversion tool.
  - [**Hacker Target: WordPress Security Scan**](https://hackertarget.com/wordpress-security-scan/): Good passive WordPress vulnerability scanner.
  - [**Google CSP Evaluator**](https://csp-evaluator.withgoogle.com): Good CSP (Content Security Policy) evaluator.

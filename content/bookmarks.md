@@ -10,6 +10,7 @@ Template: index
 Other than Emojipedia, this stuff is pretty boring and dry… Even to me! But this is stuff I find useful in my day job and general tech life.
 
 
+ - [**Convert Case**](https://convertcase.net): A site that allows you to convert badly formatted text to the correct case.
  - [**Christopher Johnson’s ASCII Art Collection**](https://asciiart.website/): A cool ASCII art collection.
  - [**Emojipedia**](https://emojipedia.org/): Emoji reference site.
  - [**Fsymbols**](https://fsymbols.com/): Font/text symbols generator and reference.

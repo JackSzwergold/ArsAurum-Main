@@ -1,39 +1,51 @@
-<?php // @codingStandardsIgnoreFile
+<?php
+
 /**
- * This file is part of Pico. It's copyrighted by the contributors recorded
- * in the version control history of the file, available from the following
- * original location:
+ * @package    Grav.Core
  *
- * <https://github.com/picocms/Pico/blob/master/index.php.dist>
- *
- * SPDX-License-Identifier: MIT
- * License-Filename: LICENSE
+ * @copyright  Copyright (c) 2015 - 2024 Trilby Media, LLC. All rights reserved.
+ * @license    MIT License; see LICENSE file for details.
  */
 
-// check PHP platform requirements
-if (PHP_VERSION_ID < 70008) {
-    die('Pico requires PHP 7.0.8 or above to run');
+namespace Grav;
+
+\define('GRAV_REQUEST_TIME', microtime(true));
+\define('GRAV_PHP_MIN', '7.3.6');
+
+if (PHP_SAPI === 'cli-server') {
+    $symfony_server = stripos(getenv('_'), 'symfony') !== false || stripos($_SERVER['SERVER_SOFTWARE'] ?? '', 'symfony') !== false || stripos($_ENV['SERVER_SOFTWARE'] ?? '', 'symfony') !== false;
+
+    if (!isset($_SERVER['PHP_CLI_ROUTER']) && !$symfony_server) {
+        die("PHP webserver requires a router to run Grav, please use: <pre>php -S {$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']} system/router.php</pre>");
+    }
 }
-if (!extension_loaded('dom')) {
-    die("Pico requires the PHP extension 'dom' to run");
+
+// Ensure vendor libraries exist
+$autoload = __DIR__ . '/vendor/autoload.php';
+if (!is_file($autoload)) {
+    die('Please run: <i>bin/grav install</i>');
 }
-if (!extension_loaded('mbstring')) {
-    die("Pico requires the PHP extension 'mbstring' to run");
+
+// Register the auto-loader.
+$loader = require $autoload;
+
+// Set timezone to default, falls back to system if php.ini not set
+date_default_timezone_set(@date_default_timezone_get());
+
+// Set internal encoding.
+@ini_set('default_charset', 'UTF-8');
+mb_internal_encoding('UTF-8');
+
+use Grav\Common\Grav;
+use RocketTheme\Toolbox\Event\Event;
+
+// Get the Grav instance
+$grav = Grav::instance(array('loader' => $loader));
+
+// Process the page
+try {
+    $grav->process();
+} catch (\Error|\Exception $e) {
+    $grav->fireEvent('onFatalException', new Event(array('exception' => $e)));
+    throw $e;
 }
-
-// load dependencies
-require_once(__DIR__ . '/vendor/autoload.php');
-
-// instance Pico
-$pico = new Pico(
-    __DIR__,    // root dir
-    'config/',  // config dir
-    'plugins/', // plugins dir
-    'themes/'   // themes dir
-);
-
-// override configuration?
-//$pico->setConfig(array());
-
-// run application
-echo $pico->run();

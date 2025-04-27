@@ -3,6 +3,10 @@
 Thumbs.db
 
 # Ignore the projects directory.
+/cache/*/*
+/cache/*
+
+# Ignore the projects directory.
 /projects_base/*
 /projects/*
 

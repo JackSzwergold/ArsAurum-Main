@@ -53,6 +53,13 @@
                         {% endblock %}
                     </div>
                 </div>
+
+                <header class="col col-12 p-0 m-0 pb-3 mb-3 border-bottom border-dark">
+                    <h1 class="p-0 m-0 text-sinanova-regular">{{ config.site.title|e }}<a href="{{ home_url|e }}"><em class="fa fa-star float-right"></em></a></em></h1>
+                    <h3 class="p-0 m-0 text-sinanova-regular">{% if meta.description %} {{ meta.description }} {% else %} {{ site_description }} {% endif %}</h3>
+                </header>
+
+
             {% endblock %}
 
             {% block body %}

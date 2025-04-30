@@ -3,7 +3,7 @@ slug: arsaurum
 type: theme
 version: 0.1.0
 description: The theme for the Ars Aurum site.
-icon: rebel
+# icon: rebel
 author:
   name: Jack Szwergold
   email: JackSzwergold@gmail.com

@@ -7,9 +7,9 @@ Robots: index,follow
 Template: index
 ---
 
- - You can contact me [here](contact).
- - You can check out my résumé [here](resume).
- - You can check out bookmarks I find to be cool [here](bookmarks).
+ - You can contact me [here](/contact).
+ - You can check out my résumé [here](/resume).
+ - You can check out bookmarks I find to be cool [here](/bookmarks).
 
 ***
 

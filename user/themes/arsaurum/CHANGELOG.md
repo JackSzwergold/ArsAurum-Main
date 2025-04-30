@@ -1,149 +1,186 @@
-Pico Default Theme Changelog
-============================
+# v2.0.4
+## 09/29/2021
 
-**Note:** This changelog only provides technical information about the changes
-          introduced with a particular Pico version, and is meant to supplement
-          the actual code changes. The information in this changelog are often
-          insufficient to understand the implications of larger changes. Please
-          refer to both the UPGRADE and NEWS sections of the docs for more
-          details.
+1. [](#new)
+   * Added simple gallery modular page for `lightbox-gallery` plugin
+2. [](#bugfix)
+    * Fixed `radio` form field error when admin isn't installed
+    * Translate `grid size` text
 
-### Version 3.0.0-alpha.2
-Released: 2020-12-24
+# v2.0.3
+## 06/08/2020
 
-```
-* [Changed] Merge all fixes of Pico v2.1.2 to v2.1.4
-```
+1. [](#improved)
+    * Updated some JS libraries
+    * Simplified navigation macro
+    * Use `site.title` in logo alt text [#139](https://github.com/getgrav/grav-theme-quark/pull/109)
 
-### Version 2.1.4
-Released: 2020-08-29
+# v2.0.2
+## 08/09/2019
 
-```
-* [Changed] Don't setup nav toggle JavaScript when there's no menu
-```
+1. [](#improved)
+    * Allow for overriding of `{% block content %}{% endblock %}`
+    * Improved default `.table` styling
+    * Simplified navigation macro
+1. [](#bugfix)
+    * Fixed issue with Prism Highlight [prism-highlight#1](https://github.com/trilbymedia/grav-plugin-prism-highlight/issues/1)
+    * Use slug for onpage links [#115](https://github.com/getgrav/grav-theme-quark/issues/115)
+    * Fixed 2 minor YAML linting issues
 
-### Version 2.1.3
-Released: 2020-07-10
+# v2.0.1
+## 05/09/2019
 
-No changes
+1. [](#improved)
+    * Typo in blueprints [#109](https://github.com/getgrav/grav-theme-quark/pull/109)
+    * Added convenience scripts to `package.json` [#110](https://github.com/getgrav/grav-theme-quark/pull/110)
+    * Added Czech translation [#106](https://github.com/getgrav/grav-theme-quark/pull/106)
+    * Added Chinese translation [#114](https://github.com/getgrav/grav-theme-quark/pull/114)
+    * Removed redundant code [#104](https://github.com/getgrav/grav-theme-quark/pull/104)
+    * Updated to match Archives plugin translation output
+1. [](#bugfix)
+    * Bugfix to class in macro [#105](https://github.com/getgrav/grav-theme-quark/pull/105)
+    * Bugfix a z-index issue [#75](https://github.com/getgrav/grav-theme-quark/pull/75)
 
-### Version 2.1.2
-Released: 2020-04-10
+# v2.0.0
+## 04/11/2019
 
-No changes
+1. [](#improved)
+    * Updated to use new `GRAV` core language prefix
+    * Updated [Spectre.css](https://picturepan2.github.io/spectre/) to latest `0.5.8` version
+    * Support for 2FA panel styling
+    * Updated to Yarn 4.0 syntax
+    * Restructured SCSS to ensure easier Spectre updates in future
+1. [](#bugfix)
+    * Some checkboxes fixes for Forms 3.0
+    * More Twig 2.0 compatibility fixes
+    * Fixed a Twig 2.0 issue with assets rendering
+    
+# v1.2.6
+## 03/21/2019
 
-### Version 3.0.0-alpha.1
-Released: 2020-03-29
+1. [](#new)
+    * Set Dependency of Grav 1.5.10+ which has support for new **Deferred Block** Twig extension
+    * Implement assets rendering using **Deferred Block** Twig extension 
 
-```
-* [New] Kick-start development of Pico 3.0
-```
+# v1.2.5
+## 12/07/2018
 
-### Version 2.1.1
-Released: 2019-12-31
+1. [](#improved)
+    * Updated [Spectre.css](https://picturepan2.github.io/spectre/) to latest `0.5.7` version
+1. [](#bugfix)
+    * Fixed missing `</html>` close tag in bae template [#76](https://github.com/getgrav/grav-theme-quark/pull/76)    
 
-No changes
+# v1.2.4
+## 11/12/2018
 
-### Version 2.1.0
-Released: 2019-11-24
+1. [](#improved)
+    * Updated [Spectre.css](https://picturepan2.github.io/spectre/) to latest `0.5.5` version
+    * Added link support to modular `features` [#39](https://github.com/getgrav/grav-theme-quark/pull/39/)
+    * Remove desktop menu when in mobile mode [#59](https://github.com/getgrav/grav-theme-quark/pull/59/)
+    * Support modular `text` full-width if no image [#70](https://github.com/getgrav/grav-theme-quark/issues/70)
+    * Shim for IE support of BrickLayer.js [#64](https://github.com/getgrav/grav-theme-quark/issues/64)
+1. [](#bugfix)
+    * Fixed `continue_link:` showing up as toggled [#65](https://github.com/getgrav/grav-theme-quark/issues/65)
+    * Fixed issue with modular pages not hidden in on-page menu with `visible: false` [#71](https://github.com/getgrav/grav-theme-quark/issues/71)
 
-```
-* [New] Add Pico's official logo and tagline
-* [New] Add some utility classes for typography and images
-* [Changed] Improve documentation of `pico-theme.yml`
-* [Changed] Various small improvements
-```
 
-### Version 2.1.0-beta.1
-Released: 2019-11-03
+# v1.2.3
+## 11/05/2018
 
-```
-* [Changed] Add basic `pico-theme.yml` to use API v3, enable Twig's autoescape
-            feature (no changes necessary) and register `Social` meta header
-* [Changed] Use Pico's `pages` Twig function to create the main navigation
-* [Changed] Improve formatting of definition lists and inline code snippets
-* [Changed] Improve JSDoc class docs
-* [Changed] Various small improvements
-```
+1. [](#improved)
+    * Moved footer into standalone twig to allow for easier extensibility [#63](https://github.com/getgrav/grav-theme-quark/pull/63)
+1. [](#bugfix)
+    * Fix variable name for prouction mode [#61](https://github.com/getgrav/grav-theme-quark/pull/61)
+    * Fix layout size in features blueprint [#67](https://github.com/getgrav/grav-theme-quark/pull/67)
+    * Fix active page logic in `nav` so there's no empty class attributes [#68](https://github.com/getgrav/grav-theme-quark/pull/68)
+    * Fix for features blueprint because `class` didn't work [#69](https://github.com/getgrav/grav-theme-quark/pull/69)
 
-### Version 2.0.5-beta.1
-Released: 2019-01-03
+# v1.2.2
+## 10/24/2018
 
-```
-* [New] Add `2.0.x-dev` alias for master branch to `composer.json`
-```
+1. [](#improved)
+    * Changed nav macro to format supported by Twig 2.0
+    * Updated `partials/form-messages.html.twig` to be more inline with latest Forms plugin
+1. [](#bugfix)
+    * Make the theme to work with Twig auto-escaping turned on
+    * Moved language strings under `THEME_QUARK`
 
-### Version 2.0.4
-Released: 2018-12-17
+# v1.2.1
+## 08/23/2018
 
-No changes
+1. [](#improved)
+    * Added additional "mobile custom logo" support
+1. [](#bugfix)
+    * Addressed some CSS issues by forcing logo height
 
-### Version 2.0.3
-Released: 2018-12-03
+# v1.2.0
+## 08/23/2018
 
-No changes
+1. [](#new)
+    * Added new "custom logo" support [#3](https://github.com/getgrav/grav-theme-quark/issues/3)
+    * Added option JSON feed syndication support in sidebar [#47](https://github.com/getgrav/grav-theme-quark/pull/47)
+    * Added basic form field `array` styling
 
-### Version 2.0.2
-Released: 2018-08-12
+# v1.1.0
+## 07/25/2018
 
-No changes
+1. [](#new)
+    * Responsive font sizing [#28](https://github.com/getgrav/grav-theme-quark/issues/28)
+1. [](#improved)
+    * Updated [Spectre.css](https://picturepan2.github.io/spectre/) to latest `0.5.3` version
+    * Make blog settings toggleable [#38](https://github.com/getgrav/grav-theme-quark/pull/38)
+1. [](#bugfix)
+    * Proper fix for sticky footer in IE10 and IE11 [#21](https://github.com/getgrav/grav-theme-quark/issues/21)
+    * Fix for lists wrapping weirdly due to `outside` attribute
+    * Updated checkbox + radio to take into account `client_side_validation` form option
+    * Fixes for fallback values [#37](https://github.com/getgrav/grav-theme-quark/pull/37)
+    * Fix inheritance for images folder [#30](https://github.com/getgrav/grav-theme-quark/pull/30)
+    * Added blueprint option for `continue_link` [#45](https://github.com/getgrav/grav-theme-quark/issues/45)
+    * Added blueprint option for Feature `class` [#14](https://github.com/getgrav/grav-theme-quark/issues/14)
+    * Fixed `Duplicate ID` issues with modular sections.  Might break CSS on first load, need to refresh to pick up new CSS [#24](https://github.com/getgrav/grav-theme-quark/issues/24)
+    * Fixed Text feature alignment issue [#4](https://github.com/getgrav/grav-theme-quark/issues/4)
+    * Overlapping menu and mobile button [#7](https://github.com/getgrav/grav-theme-quark/issues/7)
 
-### Version 2.0.1
-Released: 2018-07-29
+# v1.0.3
+## 05/11/2018
 
-No changes
+1. [](#new)
+    * Added new primary button mixin
+1. [](#improved)
+    * Updated [Spectre.css](https://picturepan2.github.io/spectre/) to latest `0.5.1` version
+    * Improved default login styling
+    * Removed core Spectre.css override to make upgrading Spectre easier
+    * Added screenshot to README.md
+    * Override focus to prevent overzealous blue blurs
+1. [](#bugfix)
+    * Fix for `highlight` plugin not changing background of code blocks
+    * Removed extraneous `dump()` in Twig output
 
-### Version 2.0.0
-Released: 2018-07-01
+# v1.0.2
+## 02/19/2018
 
-```
-* [New] Add Bountysource
-* [Changed] Improve documentation
-```
+1. [](#new)
+    * Added toggle options to enable Spectre.css _experimentals_ and _icons_ CSS files
+    * Switched to a fork of LineAwesome icons compatible with FontAwesome 4.7.0
+1. [](#improved)
+    * Font tweaks
+1. [](#bugfix)
+    * Pagination fixes
 
-### Version 2.0.0-beta.3
-Released: 2018-04-07
+# v1.0.1
+##  01/22/2018
 
-No changes
+1. [](#new)
+    * Added blueprints for admin editing
+1. [](#improved)
+    * Use default lang from `site.yaml`
+1. [](#bugfix)
+    * Fixed Current path to address issues with extending Quark
+    * Fixed parallax to start in same position as standard
+    * Fixed modular image size
 
-### Version 2.0.0-beta.2
-Released: 2018-01-21
+# v1.0.0
+##  12/28/2017
 
-```
-* [Fixed] Fix sliding animation of collapsible menu in IE 9
-* [Changed] Move Fontello font to `icon/` directory
-* [Changed] Move stylesheets to `css/` directory
-* [Changed] Improve Fontello font copyright notice
-* [Changed] Add Droid Sans and Droid Sans Mono font files to `font/` directory,
-            making Pico's default theme fully self-containing
-```
-
-### Version 2.0.0-beta.1
-Released: 2017-11-05
-
-**Note:** Pico's default theme was completely rewritten from scratch for
-          Pico 2.0 and moved to this separate repository. This changelog only
-          provides basic information about the most important changes compared
-          to Pico 1.0. It therefore doesn't include the changes made before
-          this release. The rewrite breaks backwards compatibility (BC).
-
-```
-* [New] Rewrite Pico's default theme from scratch with a much cleaner, more
-        modern, but still "stupidly simple" structure; the new theme officially
-        supports Internet Explorer 9+ as well as all versions of the major
-        desktop and mobile browsers, as long as they are still officially
-        supported by their respective vendor
-* [New] Pico's default theme is now a fully responsive theme, adapting the
-        layout to the viewing environment (desktops vs. tablets vs. smartphones
-        vs. ...)
-* [New] Add a collapsible page menu for small screens (menu slides up/down)
-* [New] Add basic form themeing
-* [New] Support a "widescreen" mode, demonstrating how themes can adjust their
-        behavior using config parameters (i.e. Pico's `config/config.yml`)
-* [Changed] Show top-level pages in the website's navigation only (i.e. show
-            `page.md` and `sub/index.md`, but not `sub/page.md`)
-* [Changed] Hide pages starting with a `_` in the website's navigation
-* [Changed] Move Pico's social icons from `index.md` to `_meta.md`,
-            demonstrating how themes can use YAML-only meta pages to support
-            dynamic content
-```
+1. [](#new)
+    * ChangeLog started...

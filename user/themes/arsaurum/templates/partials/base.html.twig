@@ -39,41 +39,41 @@
           <div class="row">
             <div class="col py-3 py-md-5 text-left">
 
-{% block header %}
-    <div class="header">
-        <div class="wrapper padding">
-            <a class="logo left" href="{{ home_url|e }}">
-                <i class="fa fa-rebel"></i>
-                {{ config.site.title|e }}
-            </a>
-            {% block header_navigation %}
-            <nav class="main-nav">
-                {% include 'partials/navigation.html.twig' %}
-            </nav>
+            {% block header %}
+                <div class="header">
+                    <div class="wrapper padding">
+                        <a class="logo left" href="{{ home_url|e }}">
+                            <i class="fa fa-rebel"></i>
+                            {{ config.site.title|e }}
+                        </a>
+                        {% block header_navigation %}
+                        <nav class="main-nav">
+                            {% include 'partials/navigation.html.twig' %}
+                        </nav>
+                        {% endblock %}
+                    </div>
+                </div>
             {% endblock %}
-        </div>
-    </div>
-{% endblock %}
 
-{% block body %}
-    <section id="body">
-        <div class="wrapper padding">
-        {% block content %}{% endblock %}
-        </div>
-    </section>
-{% endblock %}
+            {% block body %}
+                <section id="body">
+                    <div class="wrapper padding">
+                    {% block content %}{% endblock %}
+                    </div>
+                </section>
+            {% endblock %}
 
-{% block footer %}
-    <div class="footer text-center">
-        <div class="wrapper padding">
-            <p><a href="https://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="https://trilby.media">Trilby Media, LLC</a>.</p>
-        </div>
-    </div>
-{% endblock %}
+            {% block footer %}
+                <div class="footer text-center">
+                    <div class="wrapper padding">
+                        <p><a href="https://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="https://trilby.media">Trilby Media, LLC</a>.</p>
+                    </div>
+                </div>
+            {% endblock %}
 
-{% block bottom %}
-    {{ assets.js('bottom')|raw }}
-{% endblock %}
+            {% block bottom %}
+                {{ assets.js('bottom')|raw }}
+            {% endblock %}
 
             </div>
           </div>

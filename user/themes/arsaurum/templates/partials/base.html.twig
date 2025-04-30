@@ -16,11 +16,11 @@
     <link rel="icon" type="image/png" href="{{ theme_url }}/favicons/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="{{ theme_url }}/favicons/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" sizes="300x300" href="{{ theme_url }}/favicons/apple-touch-icon.png">
-    <link rel="stylesheet" type="text/css" href="{{ theme_url }}/css/bootstrap-4.6.2/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="{{ theme_url }}/css/bootstrap-5.3.3/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="{{ theme_url }}/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{ theme_url }}/css/style.css">
-    <script src="{{ theme_url }}/script/bootstrap-4.6.2/bootstrap.bundle.min.js" defer="defer"></script>
-    <script src="{{ theme_url }}/script/jquery/jquery-3.5.1.min.js"></script>
+    <script src="{{ theme_url }}/script/bootstrap-5.3.3/bootstrap.bundle.min.js" defer="defer"></script>
+    <script src="{{ theme_url }}/script/jquery/jquery-3.7.1.min.js"></script>
     <script src="{{ theme_url }}/script/underscore/underscore-min.js"></script>
     <script src="{{ theme_url }}/script/javascript.js"></script>
 
@@ -43,7 +43,7 @@
                 <header class="col col-12 p-0 m-0 pb-3 mb-3 border-bottom border-dark">
                     <h1 class="p-0 m-0 text-sinanova-regular">{{ config.site.title|e }}<a href="{{ home_url|e }}"><em class="fa fa-star float-right"></em></a></em></h1>
                     <h3 class="p-0 m-0 text-sinanova-regular">{% if meta.description %} {{ meta.description }} {% else %} {{ config.site.metadata.description|e }} {% endif %}</h3>
-                     
+
                 </header>
             {% endblock %}
 

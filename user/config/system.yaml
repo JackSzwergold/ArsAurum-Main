@@ -4,8 +4,8 @@ home:
   alias: '/home'
 
 pages:
-  theme: quark
-  # theme: arsaurum
+  #]]]theme: quark
+  theme: arsaurum
   markdown:
     extra: false
   process:

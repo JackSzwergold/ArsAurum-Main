@@ -1,10 +1,10 @@
 ---
-Title: Résumé
-Description: All of the places I have worked and the work I have done.
-Author: Jack Szwergold
-Date: 2022-11-10
-Robots: index,nofollow
-Template: index
+title: Résumé
+description: All of the places I have worked and the work I have done.
+author: Jack Szwergold
+date: 2022-11-10
+robots: index,nofollow
+template: index
 ---
 
 ### The New School

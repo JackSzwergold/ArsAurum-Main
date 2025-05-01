@@ -1,10 +1,10 @@
 ---
-Title: Bookmarks 
-Description: A list of links I find useful.
-Author: Jack Szwergold
-Date: 2022-11-10
-Robots: index,nofollow
-Template: index
+title: Bookmarks 
+description: A list of links I find useful.
+author: Jack Szwergold
+date: 2022-11-10
+robots: index,nofollow
+template: index
 ---
 
 Other than Emojipedia, this stuff is pretty boring and dry… Even to me! But this is stuff I find useful in my day job and general tech life.

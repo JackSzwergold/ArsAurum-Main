@@ -1,10 +1,10 @@
 ---
-Title: Ars Aurum
-Description: This site is Jack Szwergold’s personal portfolio and professional calling card.
-Author: Jack Szwergold
-Date: 2024-07-04
-Robots: index,follow
-Template: index
+title: Ars Aurum
+description: This site is Jack Szwergold’s personal portfolio and professional calling card.
+author: Jack Szwergold
+date: 2024-07-04
+robots: index,follow
+template: index
 ---
 
  - You can contact me [here](/contact).

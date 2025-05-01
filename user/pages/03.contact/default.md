@@ -1,10 +1,10 @@
 ---
-Title: Contact
-Description: All the different ways you can contact me.
-Author: Jack Szwergold
-Date: 2022-11-10
-Robots: index,nofollow
-Template: index
+title: Contact
+description: All the different ways you can contact me.
+author: Jack Szwergold
+date: 2022-11-10
+robots: index,nofollow
+template: index
 ---
 
 ### Actual Mail

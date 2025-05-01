@@ -4,14 +4,24 @@
 {% block head %}
     <meta charset="utf-8" />
     <title>{% if header.title %}{{ header.title|e }} | {% endif %}{{ site.title|e }}</title>
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; worker-src 'self'; object-src 'self'; media-src 'self'; manifest-src 'self'; base-uri 'self'; frame-src 'self'; child-src 'self'; form-action 'self';">
     {% include 'partials/metadata.html.twig' %}
 
     <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png')|e }}" />
     <link rel="canonical" href="{{ page.canonical(true)|e }}" />
 {% endblock head %}
+
+    {% if header.description %}
+    <meta name="description" content="{% if header.description %}{{ header.description }}{% else %}{{ config.site.metadata.description|e }}{% endif %}">
+    {% endif %}
+    {% if header.robots %}
+    <meta name="robots" content="{% if header.robots %}{{ header.robots }}{% else %}{{ config.site.metadata.robots|e }}{% endif %}">
+    {% endif %}
 
     <link rel="icon" type="image/png" href="{{ theme_url }}/favicons/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="{{ theme_url }}/favicons/apple-touch-icon-precomposed.png">

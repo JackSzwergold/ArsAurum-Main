@@ -16,31 +16,31 @@
     <link rel="canonical" href="{{ page.canonical(true)|e }}" />
 {% endblock head %}
 
-    {% if header.description %}
+{% if header.description %}
     <meta name="description" content="{{ header.description }}">
-    {% endif %}
-    {% if header.robots %}
+{% endif %}
+{% if header.robots %}
     <meta name="robots" content="{% if header.robots %}{{ header.robots }}{% else %}{{ config.site.metadata.robots|e }}{% endif %}">
-    {% endif %}
+{% endif %}
 
     <link rel="icon" type="image/png" href="{{ theme_url }}/favicons/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="{{ theme_url }}/favicons/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" sizes="300x300" href="{{ theme_url }}/favicons/apple-touch-icon.png">
-    {% block stylesheets %}
+{% block stylesheets %}
         {% do assets.addCss('theme://css/bootstrap-5.3.3/bootstrap.css') %}
         {% do assets.addCss('theme://fonts/font-awesome-4.7.0/css/font-awesome.min.css') %}
         {% do assets.addCss('theme://css/style.css') %}
-    {% endblock %}
-    {% block javascripts %}
+{% endblock %}
+{% block javascripts %}
         {% do assets.addJs('theme://script/bootstrap-5.3.3/bootstrap.bundle.min.js', { defer: true }) %}
         {% do assets.addJs('theme://script/jquery/jquery-3.7.1.min.js', { defer: true }) %}
         {% do assets.addJs('theme://script/underscore/underscore-min.js', { defer: true }) %}
         {% do assets.addJs('theme://script/javascript.js', { defer: true }) %}
-    {% endblock %}
-    {% block assets deferred %}
+{% endblock %}
+{% block assets deferred %}
         {{ assets.css()|raw }}
         {{ assets.js()|raw }}
-    {% endblock %}
+{% endblock %}
 </head>
 <body id="top" class="{{ page.header.body_classes|e }}">
 

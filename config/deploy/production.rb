@@ -19,4 +19,4 @@ set :deployment_type, "production"
 # set :live_path, "html/www.arsaurum.com"
 
 # Set the 'deploy_to' directory for this task.
-# set :deploy_to, "/home/jackgold/builds/#{fetch(:application)}/#{fetch(:deployment_type)}"
+set :deploy_to, "/home/jackgold/builds/#{fetch(:application)}/#{fetch(:deployment_type)}"

@@ -16,4 +16,4 @@ deploy_hosts.each { |deploy_host|
 set :deployment_type, "production"
 
 # Set the 'deploy_to' directory for this task.
-set :deploy_to, "/home/jackgold/builds/#{fetch(:application)}/#{fetch(:deployment_type)}"
+set :deploy_to, "#{fetch(:root_deploy_path)}/builds/#{fetch(:application)}/#{fetch(:deployment_type)}"

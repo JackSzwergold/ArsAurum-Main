@@ -33,11 +33,14 @@ set :keep_releases, 3
 # Disable warnings about the absence of the stylesheets, javscripts & images directories.
 set :normalize_asset_timestamps, false
 
+# The the root deployment path.
+set :root_deploy_path, "/home/jackgold"
+
 # The directory on the server into which the actual source code will deployed.
-set :web_builds, "/home/jackgold/builds"
+set :web_builds, "#{fetch(:root_deploy_path)}/builds"
 
 # The directory on the server that stores content related data.
-set :content_data_path, "/home/jackgold/content"
+set :content_data_path, "#{fetch(:root_deploy_path)}/content"
 
 # The path where projects get deployed.
 set :projects_path, "projects_base"

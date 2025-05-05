@@ -15,8 +15,5 @@ deploy_hosts.each { |deploy_host|
 # Set the name for the deployment type.
 set :deployment_type, "production"
 
-# The live directory path which the current version will be linked to.
-# set :live_path, "html/www.arsaurum.com"
-
 # Set the 'deploy_to' directory for this task.
 set :deploy_to, "/home/jackgold/builds/#{fetch(:application)}/#{fetch(:deployment_type)}"

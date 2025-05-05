@@ -75,13 +75,13 @@ namespace :deploy do
     on roles(:app) do
 
       # info "If there is no symbolic link called #{fetch(:short_name)}' and '#{fetch(:short_name)}' is a directory, delete that directory."
-      execute "cd /home/jackgold && if [ ! -h #{fetch(:short_name)} ]; then if [ -d #{fetch(:short_name)} ]; then rm -rf ./#{fetch(:short_name)}; fi; fi"
+      execute "cd #{fetch(:root_deploy_path)} && if [ ! -h #{fetch(:short_name)} ]; then if [ -d #{fetch(:short_name)} ]; then rm -rf ./#{fetch(:short_name)}; fi; fi"
 
       # info "If there is a symbolic link called '#{fetch(:short_name)}', delete that directory."
-      execute "cd /home/jackgold && if [ -h #{fetch(:short_name)} ]; then rm ./#{fetch(:short_name)}; fi"
+      execute "cd #{fetch(:root_deploy_path)} && if [ -h #{fetch(:short_name)} ]; then rm ./#{fetch(:short_name)}; fi"
 
       # info "If there is a symbolic link to '#{fetch(:short_name)}' then create a symbolic link called '#{fetch(:short_name)}'."
-      execute "cd /home/jackgold && if [ ! -h #{fetch(:short_name)} ]; then if [ ! -d #{fetch(:short_name)} ]; then ln -sf #{current_path} ./#{fetch(:short_name)}; fi; fi"
+      execute "cd #{fetch(:root_deploy_path)} && if [ ! -h #{fetch(:short_name)} ]; then if [ ! -d #{fetch(:short_name)} ]; then ln -sf #{current_path} ./#{fetch(:short_name)}; fi; fi"
 
     end
   end

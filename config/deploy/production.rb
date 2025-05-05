@@ -4,8 +4,8 @@ set :branch, "main"
 # Set the host and user as separate variables since Capistrano 3 doesn’t seem to have an easy way to access that info.
 # TODO: Figure out a better way to do this since 'ENV["CAP_USER"]' will override the fallback in the 'server' setup logic.
 # set :deploy_host, "sandbox-centos-68.local"
-deploy_hosts = [ "prod0.arsaurum.com" ]
-set :deploy_user, "sysop"
+deploy_hosts = [ "arsaurum.com" ]
+set :deploy_user, "jackgold"
 
 # Set the details of the destination server you will be deploying to.
 deploy_hosts.each { |deploy_host|
@@ -15,8 +15,5 @@ deploy_hosts.each { |deploy_host|
 # Set the name for the deployment type.
 set :deployment_type, "production"
 
-# The live directory path which the current version will be linked to.
-set :live_path, "html/www.arsaurum.com"
-
 # Set the 'deploy_to' directory for this task.
-set :deploy_to, "/var/www/builds/#{fetch(:application)}/#{fetch(:deployment_type)}"
+set :deploy_to, "#{fetch(:root_deploy_path)}/builds/#{fetch(:application)}/#{fetch(:deployment_type)}"

@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock ['>= 3.17.0', '< 3.18.0']
 
-set :application, 'arsaurum_www'
-set :short_name, 'site'
+set :application, 'arsaurum.com'
+set :short_name, 'arsaurum.com'
 set :repo_url, 'git@github.com:JackSzwergold/ArsAurum-Main.git'
 
 # Default value for :scm is :git
@@ -33,11 +33,14 @@ set :keep_releases, 3
 # Disable warnings about the absence of the stylesheets, javscripts & images directories.
 set :normalize_asset_timestamps, false
 
+# The the root deployment path.
+set :root_deploy_path, "/home/jackgold"
+
 # The directory on the server into which the actual source code will deployed.
-set :web_builds, "/var/www/builds"
+set :web_builds, "#{fetch(:root_deploy_path)}/builds"
 
 # The directory on the server that stores content related data.
-set :content_data_path, "/var/www/content"
+set :content_data_path, "#{fetch(:root_deploy_path)}/content"
 
 # The path where projects get deployed.
 set :projects_path, "projects_base"
@@ -72,13 +75,13 @@ namespace :deploy do
     on roles(:app) do
 
       # info "If there is no symbolic link called #{fetch(:short_name)}' and '#{fetch(:short_name)}' is a directory, delete that directory."
-      execute "cd /var/www/#{fetch(:live_path)} && if [ ! -h #{fetch(:short_name)} ]; then if [ -d #{fetch(:short_name)} ]; then rm -rf ./#{fetch(:short_name)}; fi; fi"
+      execute "cd #{fetch(:root_deploy_path)} && if [ ! -h #{fetch(:short_name)} ]; then if [ -d #{fetch(:short_name)} ]; then rm -rf ./#{fetch(:short_name)}; fi; fi"
 
       # info "If there is a symbolic link called '#{fetch(:short_name)}', delete that directory."
-      execute "cd /var/www/#{fetch(:live_path)} && if [ -h #{fetch(:short_name)} ]; then rm ./#{fetch(:short_name)}; fi"
+      execute "cd #{fetch(:root_deploy_path)} && if [ -h #{fetch(:short_name)} ]; then rm ./#{fetch(:short_name)}; fi"
 
       # info "If there is a symbolic link to '#{fetch(:short_name)}' then create a symbolic link called '#{fetch(:short_name)}'."
-      execute "cd /var/www/#{fetch(:live_path)} && if [ ! -h #{fetch(:short_name)} ]; then if [ ! -d #{fetch(:short_name)} ]; then ln -sf #{current_path} ./#{fetch(:short_name)}; fi; fi"
+      execute "cd #{fetch(:root_deploy_path)} && if [ ! -h #{fetch(:short_name)} ]; then if [ ! -d #{fetch(:short_name)} ]; then ln -sf #{current_path} ./#{fetch(:short_name)}; fi; fi"
 
     end
   end

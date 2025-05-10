@@ -28,3 +28,7 @@ Why did I get sick of it? A few reasons but main it was the guilt of posting peo
 Of course, the flyer _was_ funny. It was desperate, homemade and — most importantlty — the ferrey was most likely dead. Wisconsin winter’s were brutal so one could imagine the poor ferret escaped his home and simply perished in the cold. This was inherently comedic to me and others.
 
 So the idea was to share supposedly “dumb” stuff online with others. Much like how, in the real world, I would have shared that “Lost Ferret” flyer with a handful of people in real life, I would share these items with others hip to my site via the “Royal Journal’s Gallery of Found Art.”
+
+And that was cool for a while. But then the realization of “What the heck am I doing?” comes up.
+
+What I started to realize is that all the “Royal Journal” was, was really a testament to my position as a privileged white man picking up discarded notes left behind by others, scanning them in an posting it for everyone in the world to (potentially) access.

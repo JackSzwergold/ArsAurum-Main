@@ -48,3 +48,4 @@ And I hated that idea.
 
 Also, when people started to connect me and the _Royal Journal_ with my dayjob at _the Onion_ it really started to get sickening.
 
+_The Onion_ famously did not accept any unsolicted submissions. So when people connected me, an the _Royal Journal_

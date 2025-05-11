@@ -17,15 +17,15 @@ template: index
 
 #### _Royal Journal_ (1996-2001)
 
-The first significant site I had was known as the _Royal Journal_. That mish-mash of a site initially lived at long defunct ISP, [ExecPC](https://en.wikipedia.org/wiki/ExecPC_BBS). The URL was most likely: `http://www.execpc.com/~jackgold`, which some will recognize as a classic Apache shared system userspace URL. The site was created by me as a “solo” project that allowed me to do web things back in the day that had 100% nothing to do with my day job as the webmaster of _the Onion_’s germinal web site.
+The first significant site I had was known as the _Royal Journal_. That mish-mash of a site initially lived at long defunct ISP, [ExecPC](https://en.wikipedia.org/wiki/ExecPC_BBS). The URL was most likely: `http://www.execpc.com/~jackgold`, which some will recognize as a classic Apache shared system user-space URL. The site was created by me as a “solo” project that allowed me to do web things back in the day that had 100% nothing to do with my day job as the webmaster of _the Onion_’s germinal web site.
 
-It mainly consisted of what the kids nowadays would call “shit posts”: Scans and pictures of cool stuff and some projects of mine as well. It would eventually grow into it’s own domain name that resided at this URL: `http://www.royaljournal.com/`. I pulled it offline and blocked the Internet Archive’s Wayback Machine from archiving it becuase I was simply sick of it and sick of dealing with. The main draw of the site was a gallery of found random things I called the _Royal Journal’s Gallery of Found Art_. This was the pro-social media days of the internet and the idea of pocket computers with cameras on them didn’t exist yet; so the idea of scanning in cool/funny found items and posting them online was novel at best.
+It mainly consisted of what the kids nowadays would call “shit posts”: Scans and pictures of cool stuff and some projects of mine as well. It would eventually grow into it’s own domain name that resided at this URL: `http://www.royaljournal.com/`. I pulled it offline and blocked the Internet Archive’s Wayback Machine from archiving it because I was simply sick of it and sick of dealing with. The main draw of the site was a gallery of found random things I called the _Royal Journal’s Gallery of Found Art_. This was the pro-social media days of the internet and the idea of pocket computers with cameras on them didn’t exist yet; so the idea of scanning in cool/funny found items and posting them online was novel at best.
 
 So I was cutting edge in that respect.
 
-Why did I get sick of it? A few reasons but main it was the guilt of posting people’s discared notes and making light of their situations. Take for example, the first piece of “found art” I ever posted: A desperate flyer for a “Lost Ferret” that was shoved under my door on South Hancock Street on a bone freezing day in Madison, WI.
+Why did I get sick of it? A few reasons but main it was the guilt of posting people’s discarded notes and making light of their situations. Take for example, the first piece of “found art” I ever posted: A desperate flyer for a “Lost Ferret” that was shoved under my door on South Hancock Street on a bone freezing day in Madison, WI.
 
-Of course, the flyer _was_ funny. It was desperate, homemade and — most importantlty — the ferrey was most likely dead. Wisconsin winter’s were brutal so one could imagine the poor ferret escaped his home and simply perished in the cold. This was inherently comedic to me and others.
+Of course, the flyer _was_ funny. It was desperate, homemade and — most importantly — the ferret was most likely dead. Wisconsin winter’s were brutal so one could imagine the poor ferret escaped his home and simply perished in the cold. This was inherently comedic to me and others.
 
 So the idea was to share supposedly “dumb” stuff online with others. Much like how, in the real world, I would have shared that “Lost Ferret” flyer with a handful of people in real life, I would share these items with others hip to my site via the _Royal Journal’s Gallery of Found Art_.
 
@@ -33,9 +33,9 @@ And that was cool for a while. But then the realization of “What the heck am I
 
 What I started to realize is that all the _Royal Journal_ was, was really a testament to my position as a privileged white man picking up discarded notes left behind by others, scanning them in an posting it for everyone in the world to (potentially) access.
 
-This was hammered home when sometime in 2001 I got an email from the author of one of those discared notes asking me why I posted it online. I explained that I find random things that seem intersting and then scan them in and post them online. Their only response was, “Weird…”
+This was hammered home when sometime in 2001 I got an email from the author of one of those discarded notes asking me why I posted it online. I explained that I find random things that seem interesting and then scan them in and post them online. Their only response was, “Weird…”
 
-That’s when I started of thinking of what I was doing. Who the audience was and how I (inadvertently) was placinhg the authors/creators of those notes at risk.
+That’s when I started of thinking of what I was doing. Who the audience was and how I (inadvertently) was placing the authors/creators of those notes at risk.
 
 I realized that what I personally found “entertaining” was potentially hurting people when placed online.
 
@@ -45,10 +45,18 @@ And I hated that idea.
 
 #### _The Onion_ (1995-2001)
 
-Also, when people started to connect me and the _Royal Journal_ with my dayjob at _the Onion_ it really started to get sickening.
+Also, when people started to connect me and the _Royal Journal_ with my day-job at _the Onion_ it really started to get sickening.
 
-_The Onion_ famously did not accept any unsolicted submissions. So when people connected me, the _Royal Journal_ and _the Onion_ I started to get tons of unsolicited — and utterly unfunny and crappy — headline and story idea pitches from random people.
+_The Onion_ famously did not accept any unsolicited submissions. So when people connected me to the _Royal Journal_ and _the Onion_ I started to get tons of unsolicited — and utterly unfunny and crappy — headline and story idea pitches from random people.
 
-So by 2001 I was burned out from my dayjob at _the Onion_ and I was equallty burned out by a “solo” project with the _Royal Journal_ so I pulled (ripped out?) the plug.
+So by 2001 I was very burned out from my thankless day-job at _the Onion_ and I was equally burned out by a “solo” project with the _Royal Journal_ so I pulled (ripped out?) the plug.
 
-Not only did I purge the _Royal Journal_ from my digital life, I also looked at my physical archive of found stuff and decided, “Why am I archiving other people’s discarded notes and pictures? Isn’t that creepy?”
+Not only did I purge the _Royal Journal_ from my digital life, I also looked at my physical archive of found stuff and decided, “Why am I archiving other people’s discarded notes and pictures? Isn’t that creepy?” So with that, I ripped all of that “found art” up at tossed it in the trash.
+
+Yes, there is something personally cool — and sometimes funny — about finding someone’s discarded notes and such. But sharing such stuff online? Nope. At least not for me anymore!
+
+#### The Future (2025 and beyond)
+
+So hopefully that will fill in the blanks on my online presence! As for why I haven’t written or said anything online on my personal website for 24+ years? Life happens, and I haven’t had the creative urge until recently.
+
+As the kids say: Watch this space!

@@ -50,3 +50,5 @@ Also, when people started to connect me and the _Royal Journal_ with my dayjob a
 _The Onion_ famously did not accept any unsolicted submissions. So when people connected me, the _Royal Journal_ and _the Onion_ I started to get tons of unsolicited — and utterly unfunny and crappy — headline and story idea pitches from random people.
 
 So by 2001 I was burned out from my dayjob at _the Onion_ and I was equallty burned out by a “solo” project with the _Royal Journal_ so I pulled (ripped out?) the plug.
+
+Not only did I purge the _Royal Journal_ from my digital life, I also looked at my physical archive of found stuff and decided, “Why am I archiving other people’s discarded notes and pictures? Isn’t that creepy?”

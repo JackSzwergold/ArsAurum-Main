@@ -7,19 +7,19 @@ robots: index,follow
 template: index
 ---
 
- - You can contact me [here](/contact).
- - You can check out my résumé [here](/resume).
- - You can check out bookmarks I find to be cool [here](/bookmarks).
+ - ##### You can contact me [here](/contact).
+ - ##### You can check out my résumé [here](/resume).
+ - ##### You can check out bookmarks I find to be cool [here](/bookmarks).
 
 ***
 
-*This site is nothing much to be completely honest. For decades, I’ve had websites on and off since about 1995. What follows is a brief explanation…*
+*This site is nothing much to be completely honest. For decades, I’ve had websites on and off since about 1995. What follows is a brief explanation of the history of my web presence…*
 
 #### _Royal Journal_ (1996-2001)
 
 The first significant site I had was known as the _Royal Journal_. That mish-mash of a site initially lived at long defunct ISP, [ExecPC](https://en.wikipedia.org/wiki/ExecPC_BBS). The URL was most likely: `http://www.execpc.com/~jackgold`, which some will recognize as a classic Apache shared system user-space URL. The site was created by me as a “solo” project that allowed me to do web things back in the day that had 100% nothing to do with my day job as the webmaster of _the Onion_’s germinal web site.
 
-It mainly consisted of what the kids nowadays would call “shit posts”: Scans and pictures of cool stuff and some projects of mine as well. It would eventually grow into it’s own domain name that resided at this URL: `http://www.royaljournal.com/`. I pulled it offline and blocked the Internet Archive’s Wayback Machine from archiving it because I was simply sick of it and sick of dealing with. The main draw of the site was a gallery of found random things I called the _Royal Journal’s Gallery of Found Art_. This was the pro-social media days of the internet and the idea of pocket computers with cameras on them didn’t exist yet; so the idea of scanning in cool/funny found items and posting them online was novel at best.
+It mainly consisted of what the kids nowadays would call “shit posts”: Scans and pictures of cool stuff and some projects of mine as well. It would eventually grow into it’s own domain name that resided at this URL: `http://www.royaljournal.com/`. I pulled it offline and blocked the [Internet Archive’s Wayback Machine](https://web.archive.org) from archiving it because I was simply sick of it and sick of dealing with. The main draw of the site was a gallery of found random things I called the _Royal Journal’s Gallery of Found Art_. This was the pro-social media days of the internet and the idea of pocket computers with cameras on them didn’t exist yet; so the idea of scanning in cool/funny found items and posting them online was novel at best.
 
 So I was cutting edge in that respect.
 
@@ -54,6 +54,12 @@ So by 2001 I was very burned out from my thankless day-job at _the Onion_ and I 
 Not only did I purge the _Royal Journal_ from my digital life, I also looked at my physical archive of found stuff and decided, “Why am I archiving other people’s discarded notes and pictures? Isn’t that creepy?” So with that, I ripped all of that “found art” up at tossed it in the trash.
 
 Yes, there is something personally cool — and sometimes funny — about finding someone’s discarded notes and such. But sharing such stuff online? Nope. At least not for me anymore!
+
+#### The Abyss (2001-2025)
+
+The explanation is fairly boring: I just never had a reason to update or maintain a web pressence in this age of social media.
+
+That’s it!
 
 #### The Future (2025 and beyond)
 

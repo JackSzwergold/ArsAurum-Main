@@ -7,18 +7,62 @@ robots: index,follow
 template: index
 ---
 
- - You can contact me [here](/contact).
- - You can check out my résumé [here](/resume).
- - You can check out bookmarks I find to be cool [here](/bookmarks).
+ - ##### You can contact me [here](/contact).
+ - ##### You can check out my résumé [here](/resume).
+ - ##### You can check out bookmarks I find to be cool [here](/bookmarks).
 
 ***
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pellentesque tincidunt quam, eu porttitor ex sollicitudin vel. Aliquam libero orci, commodo at malesuada at, luctus non lacus. Nullam quis gravida purus. Sed venenatis orci urna, ac varius ante congue sit amet. Mauris auctor bibendum est, id ultrices velit facilisis ac. Morbi feugiat augue id lectus ultrices mollis. Nam quis nibh elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec neque nulla, maximus at justo vitae, rutrum ullamcorper augue. Duis et nunc dapibus, mattis odio sit amet, condimentum dui.
+*This site is nothing much to be completely honest. For decades, I’ve had websites on and off since about 1995. What follows is a brief explanation of the history of my web presence…*
 
-Duis pharetra leo ut pretium rutrum. Mauris mi velit, laoreet ac massa vel, placerat auctor elit. Vivamus efficitur sodales nisi, quis tempus augue. Proin suscipit ante ex, eget interdum justo scelerisque id. Nullam ut ligula ut libero interdum molestie a ac nisi. Sed dignissim lectus sed turpis faucibus, id dapibus purus mattis. Donec venenatis maximus ex, vel porta leo sagittis a. Vestibulum ac consectetur orci. Pellentesque faucibus id massa dignissim ornare. Suspendisse ante sapien, ultricies sit amet nisl varius, sodales mattis tortor.
+#### _Royal Journal_ (1996-2001)
 
-Pellentesque convallis nibh ut dictum lobortis. Integer porttitor lacinia magna nec fermentum. Curabitur rutrum turpis sapien, sed volutpat massa lacinia id. Pellentesque ac dui a mi posuere vestibulum et eu ante. Nam commodo venenatis leo, sodales ultrices erat tincidunt a. Suspendisse sed ligula feugiat, consectetur massa a, commodo neque. Duis et rutrum ipsum. Vestibulum a ligula sed dui dictum dapibus a a quam. Praesent libero nulla, pellentesque vel maximus non, fermentum non ligula. Mauris mauris urna, vestibulum id facilisis vitae, elementum a mi.
+The first significant site I had was known as the _Royal Journal_. That mish-mash of a site initially lived at long defunct ISP, [ExecPC](https://en.wikipedia.org/wiki/ExecPC_BBS). The URL was most likely: `http://www.execpc.com/~jackgold`, which some will recognize as a classic Apache shared system user-space URL. The site was created by me as a “solo” project that allowed me to do web things back in the day that had 100% nothing to do with my day job as the webmaster of _the Onion_’s germinal web site.
 
-Cras viverra, enim sit amet maximus egestas, nisl enim cursus tortor, sed venenatis eros ex sit amet tellus. Proin consequat aliquet libero, vitae varius ipsum egestas nec. Integer sed lectus ultrices, auctor diam a, fermentum velit. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ut molestie turpis, iaculis suscipit mauris. Vivamus congue dictum ex. Sed sagittis velit quis neque ornare commodo. Ut ullamcorper eleifend metus in posuere. Maecenas lobortis vestibulum risus, non rhoncus purus egestas quis. Integer sit amet porta nisl. Ut nec nisl scelerisque, fringilla lectus ut, consectetur arcu. In hac habitasse platea dictumst. Praesent ac fringilla arcu, in auctor libero. Quisque euismod tellus ut lobortis auctor. Aenean sed tempor augue.
+It mainly consisted of what the kids nowadays would call “shit posts”: Scans and pictures of cool stuff and some projects of mine as well. It would eventually grow into it’s own domain name that resided at this URL: `http://www.royaljournal.com/`. I pulled it offline and blocked the [Internet Archive’s Wayback Machine](https://web.archive.org) from archiving it because I was simply sick of it and sick of dealing with. The main draw of the site was a gallery of found random things I called the _Royal Journal’s Gallery of Found Art_. This was the pro-social media days of the internet and the idea of pocket computers with cameras on them didn’t exist yet; so the idea of scanning in cool/funny found items and posting them online was novel at best.
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis ac aliquet lorem. Pellentesque turpis purus, suscipit sit amet dolor et, aliquet convallis mauris. Cras sed velit at nunc pretium tempus quis malesuada ligula. Vestibulum tempor ligula vitae finibus egestas. Donec purus lacus, tempus eget orci eget, rutrum commodo dolor. Morbi nec risus lacinia, congue libero efficitur, fermentum orci. Aliquam porttitor urna eu bibendum consequat. Praesent eu nisi in dui pharetra sagittis. In posuere sem quam, et dictum sapien interdum non. Ut auctor fringilla sapien, in volutpat est laoreet et. Suspendisse lectus est, vestibulum nec sagittis sit amet, hendrerit id lorem.
+So I was cutting edge in that respect.
+
+Why did I get sick of it? A few reasons but main it was the guilt of posting people’s discarded notes and making light of their situations. Take for example, the first piece of “found art” I ever posted: A desperate flyer for a “Lost Ferret” that was shoved under my door on South Hancock Street on a bone freezing day in Madison, WI.
+
+Of course, the flyer _was_ funny. It was desperate, homemade and — most importantly — the ferret was most likely dead. Wisconsin winter’s were brutal so one could imagine the poor ferret escaped his home and simply perished in the cold. This was inherently comedic to me and others.
+
+So the idea was to share supposedly “dumb” stuff online with others. Much like how, in the real world, I would have shared that “Lost Ferret” flyer with a handful of people in real life, I would share these items with others hip to my site via the _Royal Journal’s Gallery of Found Art_.
+
+And that was cool for a while. But then the realization of “What the heck am I doing?” comes up.
+
+What I started to realize is that all the _Royal Journal_ was, was really a testament to my position as a privileged white man picking up discarded notes left behind by others, scanning them in an posting it for everyone in the world to (potentially) access.
+
+This was hammered home when sometime in 2001 I got an email from the author of one of those discarded notes asking me why I posted it online. I explained that I find random things that seem interesting and then scan them in and post them online. Their only response was, “Weird…”
+
+That’s when I started of thinking of what I was doing. Who the audience was and how I (inadvertently) was placing the authors/creators of those notes at risk.
+
+I realized that what I personally found “entertaining” was potentially hurting people when placed online.
+
+While nothing ever really went “viral” it was in many ways pre-viral the way I was taking things others discarded and created “art” based on their work.
+
+And I hated that idea.
+
+#### _The Onion_ (1995-2001)
+
+Also, when people started to connect me and the _Royal Journal_ with my day-job at _the Onion_ it really started to get sickening.
+
+_The Onion_ famously did not accept any unsolicited submissions. So when people connected me to the _Royal Journal_ and _the Onion_ I started to get tons of unsolicited — and utterly unfunny and crappy — headline and story idea pitches from random people.
+
+So by 2001 I was very burned out from my thankless day-job at _the Onion_ and I was equally burned out by a “solo” project with the _Royal Journal_ so I pulled (ripped out?) the plug.
+
+Not only did I purge the _Royal Journal_ from my digital life, I also looked at my physical archive of found stuff and decided, “Why am I archiving other people’s discarded notes and pictures? Isn’t that creepy?” So with that, I ripped all of that “found art” up at tossed it in the trash.
+
+Yes, there is something personally cool — and sometimes funny — about finding someone’s discarded notes and such. But sharing such stuff online? Nope. At least not for me anymore!
+
+#### The Abyss (2001-2025)
+
+The explanation is fairly boring: I just never had a reason to update or maintain a web pressence in this age of social media.
+
+That’s it!
+
+#### The Future (2025 and beyond)
+
+So hopefully that will fill in the blanks on my online presence! As for why I haven’t written or said anything online on my personal website for 24+ years? Life happens, and I haven’t had the creative urge until recently.
+
+As the kids say: Watch this space!

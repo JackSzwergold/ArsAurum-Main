@@ -23,6 +23,13 @@ pre {
   font-size: 0.75rem;
 }
 
+code {
+  background: #dddddd !important;
+  color: #000000 !important;
+  font-size: 0.75rem !important;
+  padding: 0.125rem 0.25rem !important;
+}
+
 /******************************************************************************/
 /* The background code stuff.
 /******************************************************************************/

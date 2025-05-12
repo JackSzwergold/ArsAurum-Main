@@ -13,7 +13,7 @@ template: index
 
 ***
 
-*This site is nothing much to be completely honest. For decades, I’ve had websites on and off since about 1995. What follows is a brief explanation of the history of my web presence… It was written on the weekend of May 10, 2025*
+*This site is nothing much to be completely honest. For decades, I’ve had websites on and off since about 1995. What follows is a brief explanation of the history of my web presence… It was written on the weekend of May 10, 2025.*
 
 #### _Royal Journal_ (1996-2001)
 

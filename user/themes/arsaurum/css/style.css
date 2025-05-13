@@ -87,6 +87,66 @@ code {
 }
 
 /******************************************************************************/
+@font-face {
+    font-family: 'WindsorProBold';
+    src: url('../fonts/WindsorPro/windsorprobold.woff2') format('woff2'),
+         url('../fonts/WindsorPro/windsorprobold.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WindsorProElongated';
+    src: url('../fonts/WindsorPro/windsorproelongated.woff2') format('woff2'),
+         url('../fonts/WindsorPro/windsorproelongated.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProElongated.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WindsorProRegular';
+    src: url('../fonts/WindsorPro/windsorprorg.woff2') format('woff2'),
+         url('../fonts/WindsorPro/windsorprorg.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProRg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WindsorProUltraHeavy';
+    src: url('../fonts/WindsorPro/windsorproulthv.woff2') format('woff2'),
+         url('../fonts/WindsorPro/windsorproulthv.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProUltHv.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WindsorProXBoldCn';
+    src: url('../fonts/WindsorPro/windsorproxboldcn.woff2') format('woff2'),
+         url('../fonts/WindsorPro/windsorproxboldcn.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProXBoldCn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/******************************************************************************/
+/* Setting WindsorPro tags.
+/******************************************************************************/
+.text-windsorpro-regular {
+  font-family: "WindsorProRegular", Georgia, "New York", "Times New Roman", Times, serif !important;
+  font-weight: 400 !important;
+}
+
+.text-windsorpro-bold {
+  font-family: "WindsorProBold", Georgia, "New York", "Times New Roman", Times, serif !important;
+  font-weight: 700 !important;
+}
+
+/******************************************************************************/
 /* Setting Arial tags.
 /******************************************************************************/
 .text-arial-light {
@@ -141,7 +201,7 @@ main article h3,
 main article h4,
 main article h5,
 main article h6 {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif;
+  font-family: "WindsorProRegular", Georgia, "New York", "Times New Roman", Times, serif;
   color: #333333;
 }
 

@@ -44,10 +44,10 @@
 </head>
 <body id="top" class="{{ page.header.body_classes|e }}">
 
-  <nav class="navbar sticky-top navbar-light bg-light border-bottom border-dark">
+  <nav class="navbar p-0 m-0 px-2 sticky-top navbar-light bg-dark">
     <div class="col col-12 p-0 m-0 p-2">
-      <h1 class="p-0 m-0 text-windsorpro-bold">{% if header.title %}{{ header.title|e }}{% else %}{{ site.title|e }}{% endif %}<a href="{{ home_url|e }}"><em class="fa fa-staxr fa-spin float-end"></em></a></h1>
-      <h2 class="p-0 m-0 text-windsorpro-regular">{% if header.description %}{{ header.description }}{% else %}{{ config.site.metadata.description|e }}{% endif %}</h2>
+      <h1 class="p-0 m-0 text-windsorpro-bold text-light">{{ site.title|e }}<a href="{{ home_url|e }}"><em class="fa fa-staxr fa-spin float-end"></em></a></h1>
+      <h2 class="p-0 m-0 text-windsorpro-regular text-light">{{ config.site.metadata.description|e }}</h2>
     </div>
   </nav>
 
@@ -60,11 +60,11 @@
             <div class="col py-3 py-md-4 text-left">
 
             {% block header %}
-                <!-- <header class="col col-12 p-0 m-0 pb-2">
+                <header class="col col-12 p-0 m-0 pb-2">
                     <h1 class="p-0 m-0 text-windsorpro-bold">{% if header.title %}{{ header.title|e }}{% else %}{{ site.title|e }}{% endif %}<a href="{{ home_url|e }}"><em class="fa fa-star fa-spin float-end"></em></a></h1>
                     <h2 class="p-0 m-0 text-windsorpro-regular">{% if header.description %}{{ header.description }}{% else %}{{ config.site.metadata.description|e }}{% endif %}</h2>
                     <hr class="border border-dark border-1 opacity-100">
-                </header> -->
+                </header>
             {% endblock %}
 
             <!-- {% block header_navigation %}

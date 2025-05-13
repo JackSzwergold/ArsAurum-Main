@@ -46,7 +46,7 @@
 
   <nav class="navbar p-0 m-0 px-2 sticky-top navbar-light bg-dark">
     <div class="col col-12 p-0 m-0 p-2">
-      <h1 class="p-0 m-0 text-windsorpro-bold text-light">{{ site.title|e }}<a href="{{ home_url|e }}"><em class="fa fa-staxr fa-spin float-end"></em></a></h1>
+      <h1 class="p-0 m-0 text-windsorpro-bold"><a href="{{ home_url|e }}"><span class="text-light">{{ site.title|e }}</span></a></h1>
       <h2 class="p-0 m-0 text-windsorpro-regular text-light">{{ config.site.metadata.description|e }}</h2>
     </div>
   </nav>
@@ -61,8 +61,8 @@
 
             {% block header %}
                 <header class="col col-12 p-0 m-0 pb-2">
-                    <h1 class="p-0 m-0 text-windsorpro-bold">{% if header.title %}{{ header.title|e }}{% else %}{{ site.title|e }}{% endif %}<a href="{{ home_url|e }}"><em class="fa fa-star fa-spin float-end"></em></a></h1>
-                    <h2 class="p-0 m-0 text-windsorpro-regular">{% if header.description %}{{ header.description }}{% else %}{{ config.site.metadata.description|e }}{% endif %}</h2>
+                    <div class="h1 p-0 m-0 text-windsorpro-bold">{% if header.title %}{{ header.title|e }}{% endif %}</div>
+                    <div class="h2 p-0 m-0 text-windsorpro-regular">{% if header.description %}{{ header.description }}{% endif %}</div>
                     <hr class="border border-dark border-1 opacity-100">
                 </header>
             {% endblock %}

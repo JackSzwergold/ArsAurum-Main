@@ -55,7 +55,7 @@
             {% block header %}
                 <header class="col col-12 p-0 m-0 pb-3 mb-3 border-bottom border-dark">
                     <h1 class="p-0 m-0 text-windsorpro-bold">{% if header.title %}{{ header.title|e }}{% else %}{{ site.title|e }}{% endif %}<a href="{{ home_url|e }}"><em class="fa fa-star float-end"></em></a></em></h1>
-                    <h3 class="p-0 m-0 text-windsorpro-regular">{% if header.description %}{{ header.description }}{% else %}{{ config.site.metadata.description|e }}{% endif %}</h3>
+                    <h2 class="p-0 m-0 text-windsorpro-regular">{% if header.description %}{{ header.description }}{% else %}{{ config.site.metadata.description|e }}{% endif %}</h2>
 
                 </header>
             {% endblock %}

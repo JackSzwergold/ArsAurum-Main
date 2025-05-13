@@ -7,15 +7,17 @@ robots: index,follow
 template: index
 ---
 
- - ##### You can contact me [here](/contact).
- - ##### You can check out my résumé [here](/resume).
- - ##### You can check out bookmarks I find to be cool [here](/bookmarks).
+ - #### You can contact me [here](/contact).{.p-0 .m-0 .fw-bold}
+ - #### You can check out my résumé [here](/resume).{.p-0 .m-0 .fw-bold}
+ - #### You can check out bookmarks I find to be cool [here](/bookmarks).{.p-0 .m-0 .fw-bold}
 
-***
+<hr class="border border-dark border-1 opacity-25">
 
 *This site is nothing much to be completely honest. For decades, I’ve had websites on and off since about 1995. What follows is a brief explanation of the history of my web presence… It was written on the weekend of May 10, 2025.*
 
-#### _Royal Journal_ (1996-2001)
+<hr class="border border-dark border-1 opacity-25">
+
+### _Royal Journal_ (1996-2001){#royal_journal .text-dark}
 
 The first significant site I had was known as the _Royal Journal_. That mish-mash of a site initially lived at long defunct ISP, [ExecPC](https://en.wikipedia.org/wiki/ExecPC_BBS). The URL was most likely: `http://www.execpc.com/~jackgold`, which some will recognize as a classic Apache web server shared system user-space URL. The site was created by me as a “solo” project that allowed me to do web things back in the day that had 100% nothing to do with my day job as the webmaster of _the Onion_’s germinal web site.
 
@@ -43,7 +45,9 @@ While nothing ever really went “viral” it was in many ways pre-viral the way
 
 And I hated that idea.
 
-#### _The Onion_ (1995-2001)
+<hr class="border border-dark border-1 opacity-25">
+
+### _The Onion_ (1995-2001){#the_onion .text-dark}
 
 Also, when people started to connect me and the _Royal Journal_ with my day-job at _the Onion_ it really started to get sickening.
 
@@ -55,13 +59,17 @@ Not only did I purge the _Royal Journal_ from my digital life, I also looked at 
 
 Yes, there is something personally cool — and sometimes funny — about finding someone’s discarded notes and such. But sharing such stuff online? Nope. At least not for me anymore!
 
-#### The Creative Void (2001-2025)
+<hr class="border border-dark border-1 opacity-25">
+
+### The Creative Void (2001-2025){#the_creative_void .text-dark}
 
 The explanation is fairly boring: I just never had a reason to update or maintain a web presence in this age of social media.
 
 That’s it!
 
-#### The Future (2025 and beyond)
+<hr class="border border-dark border-1 opacity-25">
+
+### The Future (2025 and beyond){#the_future .text-dark}
 
 So hopefully that will fill in the blanks on my online presence! As for why I haven’t written or said anything online on my personal website for 24+ years? Life happens, and I haven’t had the creative urge until recently.
 

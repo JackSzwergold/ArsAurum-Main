@@ -7,10 +7,10 @@ robots: index,nofollow
 template: index
 ---
 
-### Actual Mail
+### Actual Mail{.p-0 .m-0 .fw-bold}
 Jack Szwergold  
 P.O. Box 595  
 New York, NY 10276
 
-### Electronic Mail
+### Electronic Mail{.p-0 .m-0 .fw-bold}
 [jackszwergold@icloud.com](mailto:jackszwergold@icloud.com?Subject=Preworn%20Website%20Query)

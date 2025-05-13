@@ -52,38 +52,62 @@ code {
 /*
 /******************************************************************************/
 @font-face {
-  font-family: 'SinaNovaReg';
-  src: url('../fonts/SinaNova/SinaNovaReg-webfont.eot');
-  src: url('../fonts/SinaNova/SinaNovaReg-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/SinaNova/SinaNovaReg-webfont.woff2') format('woff2'),
-    url('../fonts/SinaNova/SinaNovaReg-webfont.woff') format('woff'),
-    url('../fonts/SinaNova/SinaNovaReg-webfont.ttf') format('truetype'),
-    url('../fonts/SinaNova/SinaNovaReg-webfont.svg#sinanova-regularregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'WindsorProBold';
+    src: url('../fonts/WindsorPro/WindsorProBold.woff2') format('woff2'),
+         url('../fonts/WindsorPro/WindsorProBold.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WindsorProElongated';
+    src: url('../fonts/WindsorPro/WindsorProElongated.woff2') format('woff2'),
+         url('../fonts/WindsorPro/WindsorProElongated.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProElongated.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WindsorProRegular';
+    src: url('../fonts/WindsorPro/WindsorProRg.woff2') format('woff2'),
+         url('../fonts/WindsorPro/WindsorProRg.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProRg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WindsorProUltraHeavy';
+    src: url('../fonts/WindsorPro/WindsorProUltHv.woff2') format('woff2'),
+         url('../fonts/WindsorPro/WindsorProUltHv.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProUltHv.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WindsorProXBoldCn';
+    src: url('../fonts/WindsorPro/WindsorProXBoldCn.woff2') format('woff2'),
+         url('../fonts/WindsorPro/WindsorProXBoldCn.woff') format('woff'),
+         url('../fonts/WindsorPro/WindsorProXBoldCn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /******************************************************************************/
-/* Setting SinaNova tags.
+/* Setting WindsorPro tags.
 /******************************************************************************/
-.text-sinanova-light {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif !important;
-  font-weight: 100 !important;
-}
-
-.text-sinanova-regular {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif !important;
+.text-windsorpro-regular {
+  font-family: "WindsorProRegular", Georgia, "New York", "Times New Roman", Times, serif !important;
   font-weight: 400 !important;
 }
 
-.text-sinanova-bold {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif !important;
+.text-windsorpro-bold {
+  font-family: "WindsorProBold", Georgia, "New York", "Times New Roman", Times, serif !important;
   font-weight: 700 !important;
-}
-
-.text-sinanova-black {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif !important;
-  font-weight: 900 !important;
 }
 
 /******************************************************************************/
@@ -141,7 +165,7 @@ main article h3,
 main article h4,
 main article h5,
 main article h6 {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif;
+  font-family: "WindsorProRegular", Georgia, "New York", "Times New Roman", Times, serif;
   color: #333333;
 }
 

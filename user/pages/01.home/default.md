@@ -21,7 +21,7 @@ template: index
 
 The first significant site I had was known as the _Royal Journal_. That mish-mash of a site initially lived at long defunct ISP, [ExecPC](https://en.wikipedia.org/wiki/ExecPC_BBS). The URL was most likely: `http://www.execpc.com/~jackgold`, which some will recognize as a classic Apache web server shared system user-space URL. The site was created by me as a “solo” project that allowed me to do web things back in the day that had 100% nothing to do with my day job as the webmaster of _the Onion_’s germinal web site.
 
-It mainly consisted of what the kids nowadays would call “shit posts” mixed with classic 1990s zine-ish content: Scans and pictures of cool stuff and some projects of mine as well. It would eventually grow into it’s own domain name that resided at this URL: `http://www.royaljournal.com/`. I pulled it offline and blocked the [Internet Archive’s Wayback Machine](https://web.archive.org) from archiving it because I was simply sick of it and sick of dealing with. The main draw of the site was a gallery of found random things I called the _Royal Journal’s Gallery of Found Art_. This was the pre-social media days of the internet and the idea of pocket computers with cameras on them didn’t exist yet; so the idea of posting pictures of cool/funny found items and posting them online was novel at best.
+It mainly consisted of what the kids nowadays would call “shit posts” mixed with classic 1990s zine-ish content: Scans and pictures of cool stuff and some projects of mine as well. It would eventually grow into it’s own domain name that resided at this URL: `http://www.royaljournal.com/`. I pulled it offline and blocked the [Internet Archive’s Wayback Machine](https://web.archive.org) from archiving it because I was simply sick of it and sick of dealing with. The main draw of the site was a gallery of found random things I called the _Royal Journal’s Gallery of Found Art_. This was the pre-social media days of the internet and the idea of networked pocket computers with cameras on them didn’t exist yet; so the idea of posting pictures of cool/funny found items online was novel at best.
 
 So I was cutting edge in that respect.
 
@@ -33,7 +33,7 @@ So the idea was to share supposedly “dumb” stuff online with others. Much li
 
 And that was cool for a while. But then the realization of “What the heck am I doing?” comes up.
 
-What I started to realize is that all the _Royal Journal_ was, was really a testament to my position as a privileged white man picking up discarded notes left behind by others, scanning them in an posting it for everyone in the world to (potentially) access.
+What I started to realize is that all the _Royal Journal_ was, was really a testament to my position as a privileged white man picking up discarded notes left behind by others, scanning them in a posting it for everyone in the world to (potentially) access.
 
 This was hammered home when sometime in 2001 I got an email from the author of one of those discarded notes asking me why I posted it online. I explained that I find random things that seem interesting and then scan them in and post them online. Their only response was, “Weird…”
 

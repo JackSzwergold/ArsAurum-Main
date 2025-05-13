@@ -52,42 +52,6 @@ code {
 /*
 /******************************************************************************/
 @font-face {
-  font-family: 'SinaNovaReg';
-  src: url('../fonts/SinaNova/SinaNovaReg-webfont.eot');
-  src: url('../fonts/SinaNova/SinaNovaReg-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/SinaNova/SinaNovaReg-webfont.woff2') format('woff2'),
-    url('../fonts/SinaNova/SinaNovaReg-webfont.woff') format('woff'),
-    url('../fonts/SinaNova/SinaNovaReg-webfont.ttf') format('truetype'),
-    url('../fonts/SinaNova/SinaNovaReg-webfont.svg#sinanova-regularregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/******************************************************************************/
-/* Setting SinaNova tags.
-/******************************************************************************/
-.text-sinanova-light {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif !important;
-  font-weight: 100 !important;
-}
-
-.text-sinanova-regular {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif !important;
-  font-weight: 400 !important;
-}
-
-.text-sinanova-bold {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif !important;
-  font-weight: 700 !important;
-}
-
-.text-sinanova-black {
-  font-family: "SinaNovaReg", Georgia, "New York", "Times New Roman", Times, serif !important;
-  font-weight: 900 !important;
-}
-
-/******************************************************************************/
-@font-face {
     font-family: 'WindsorProBold';
     src: url('../fonts/WindsorPro/WindsorProBold.woff2') format('woff2'),
          url('../fonts/WindsorPro/WindsorProBold.woff') format('woff'),

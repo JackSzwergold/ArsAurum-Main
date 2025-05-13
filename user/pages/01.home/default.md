@@ -11,11 +11,11 @@ template: index
  - #### You can check out my résumé [here](/resume).
  - #### You can check out bookmarks I find to be cool [here](/bookmarks).
 
-***
+<hr class="border border-dark border-1 opacity-25">
 
 *This site is nothing much to be completely honest. For decades, I’ve had websites on and off since about 1995. What follows is a brief explanation of the history of my web presence… It was written on the weekend of May 10, 2025.*
 
-***
+<hr class="border border-dark border-1 opacity-25">
 
 ### _Royal Journal_ (1996-2001){#royal_journal .text-dark}
 
@@ -45,7 +45,7 @@ While nothing ever really went “viral” it was in many ways pre-viral the way
 
 And I hated that idea.
 
-***
+<hr class="border border-dark border-1 opacity-25">
 
 ### _The Onion_ (1995-2001){#the_onion .text-dark}
 
@@ -59,7 +59,7 @@ Not only did I purge the _Royal Journal_ from my digital life, I also looked at 
 
 Yes, there is something personally cool — and sometimes funny — about finding someone’s discarded notes and such. But sharing such stuff online? Nope. At least not for me anymore!
 
-***
+<hr class="border border-dark border-1 opacity-25">
 
 ### The Creative Void (2001-2025){#the_creative_void .text-dark}
 
@@ -67,7 +67,7 @@ The explanation is fairly boring: I just never had a reason to update or maintai
 
 That’s it!
 
-***
+<hr class="border border-dark border-1 opacity-25">
 
 ### The Future (2025 and beyond){#the_future .text-dark}
 

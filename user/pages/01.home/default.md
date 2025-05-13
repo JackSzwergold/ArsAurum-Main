@@ -49,11 +49,11 @@ And I hated that idea.
 
 ### _The Onion_ (1995-2001){#the_onion .text-dark}
 
-Also, when people started to connect me and the _Royal Journal_ with my day-job at _the Onion_ it really started to get sickening.
+Also, when people started to connect me and the _Royal Journal_ with my day job at _the Onion_ it really started to get sickening.
 
 _The Onion_ famously did not accept any unsolicited submissions. So when people connected me to the _Royal Journal_ and _the Onion_ I started to get tons of unsolicited — and utterly unfunny and crappy — headline and story idea pitches from random people.
 
-So by 2001 I was very burned out from my thankless day-job at _the Onion_ and I was equally burned out by a “solo” project with the _Royal Journal_ so I pulled (ripped out?) the plug.
+So by 2001 I was very burned out from my thankless day job at _the Onion_ and I was equally burned out by a “solo” project with the _Royal Journal_ so I pulled (ripped out?) the plug.
 
 Not only did I purge the _Royal Journal_ from my digital life, I also looked at my physical archive of found stuff and decided, “Why am I archiving other people’s discarded notes and pictures? Isn’t that creepy?” So with that, I ripped all of that “found art” up at tossed it in the trash.
 

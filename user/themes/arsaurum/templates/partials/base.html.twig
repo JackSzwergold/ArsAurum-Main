@@ -44,10 +44,10 @@
 </head>
 <body id="top" class="{{ page.header.body_classes|e }}">
 
-  <nav class="navbar p-0 m-0 px-2 sticky-top navbar-light bg-dark">
-    <div class="col col-12 p-0 m-0 p-2">
-      <h1 class="p-0 m-0 text-windsorpro-bold"><a href="{{ home_url|e }}"><span class="text-light">{{ site.title|e }}</span></a></h1>
-      <h2 class="p-0 m-0 text-windsorpro-regular text-light">{{ config.site.metadata.description|e }}</h2>
+  <nav class="navbar p-0 m-0 px-2 sticky-top navbar-light bg-light border-bottom border-dark">
+    <div class="col col-12 p-0 m-0 px-2 py-1">
+      <h1 class="p-0 m-0 text-windsorpro-bold"><a href="{{ home_url|e }}">{{ site.title|e }}</a></h1>
+      <h2 class="p-0 m-0 text-windsorpro-regular"><a href="{{ home_url|e }}">{{ config.site.metadata.description|e }}</a></h2>
     </div>
   </nav>
 

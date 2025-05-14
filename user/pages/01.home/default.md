@@ -1,6 +1,6 @@
 ---
-title: Ars Aurum
-description: This site is Jack Szwergold’s personal portfolio and professional calling card.
+title: Hello!
+description: Welcome to my damned website!
 author: Jack Szwergold
 date: 2024-07-04
 robots: index,follow

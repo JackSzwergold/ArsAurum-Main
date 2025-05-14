@@ -10,8 +10,8 @@ template: index
 ### The New School{#the_new_school .p-0 .m-0 .fw-bold}
 #### Web Developer{.p-0 .m-0}
 ##### (September 2016 – Present)
-Web developer for the New York City based university. Develop, debug, assess and maintain all current Linux-based systems as well as actively participate in the development and structuring of new systems. Consult with other departments across the university to support, develop and stabilize their own, independently managed web-based systems. Lead developer for the 2018 rewrite — and ongoing maintenance and development — of the univerity’s comprehensive multi-school/college [Course Catalog](https://courses.newschool.edu) as well as the [IT department’s Drupal-based web-based service
-catalog](https://it.newschool.edu/). Also have developed ETL (extract, transform, load) systems and related middle-ware processes to cleanly — and reliably — process data across disparate university systems and platforms.
+Web developer for the New York City based university. Develop, debug, assess and maintain all current Linux-based systems as well as actively participate in the development and structuring of new systems. Consult with other departments across the university to support, develop and stabilize their own, independently managed web-based systems. Lead developer for the 2018 rewrite — and ongoing maintenance and development — of the univerity’s comprehensive multi-school/college [Course Catalog](https://courses.newschool.edu) as well as the IT department’s once Drupal-based web-based service
+catalog. Also have developed ETL (extract, transform, load) systems and related middle-ware processes to cleanly — and reliably — process data across disparate university systems and platforms.
 
 <hr class="border border-dark border-1 opacity-25">
 

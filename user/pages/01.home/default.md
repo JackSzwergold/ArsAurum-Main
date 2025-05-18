@@ -10,6 +10,7 @@ template: index
  - #### You can contact me [here](/contact).{.p-0 .m-0 .fw-bold}
  - #### You can check out my résumé [here](/resume).{.p-0 .m-0 .fw-bold}
  - #### You can check out bookmarks I find to be cool [here](/bookmarks).{.p-0 .m-0 .fw-bold}
+ - #### And hey! Please check out my personal essays about growing up in New York City over at [Mr. Beller’s Neighborhood](https://mrbellersneighborhood.com/author/jack-szwergold).{.p-0 .m-0 .fw-bold}
 
 <hr class="border border-dark border-1 opacity-25">
 

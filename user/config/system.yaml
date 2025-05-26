@@ -5,7 +5,7 @@ home:
 
 pages:
   # theme: quark
-  theme: arsaurum
+  theme: szwergold
   markdown:
     extra: true
   process:

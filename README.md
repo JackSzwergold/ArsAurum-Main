@@ -1,4 +1,4 @@
-ArsAurum-Main
+Szwergold-Main
 ============
 
-The main codebase for “www.arsaurum.com”
+The main codebase for “www.szwergold.com”

@@ -26,13 +26,13 @@ Meaning, whatever keys you have on your local machine—such as `id_rsa.pub`—w
 
 To use it, just add it to the `ssh` command like this:
 
-    ssh -A sysop@arsaurum.com
+    ssh -A sysop@szwergold.com
 
-Then when you login to `arsaurum.com` all of your local SSH keys will be respected down the line.
+Then when you login to `szwergold.com` all of your local SSH keys will be respected down the line.
 
-But wait! One more thing! After you have logged into `arsaurum.com` you need to make sure to add `github.com` to your systems list of known hosts. And the process is the same as the local machine setup. First login to the remote machine via an SSH command like this:
+But wait! One more thing! After you have logged into `szwergold.com` you need to make sure to add `github.com` to your systems list of known hosts. And the process is the same as the local machine setup. First login to the remote machine via an SSH command like this:
 
-    ssh -A sysop@arsaurum.com
+    ssh -A sysop@szwergold.com
 
 Then test the connection by running this command:
 

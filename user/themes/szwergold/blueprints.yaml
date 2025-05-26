@@ -1,17 +1,17 @@
 name: Arsaurum
-slug: arsaurum
+slug: szwergold
 type: theme
 version: 0.1.0
-description: The theme for the Ars Aurum site.
+description: The theme for the Szwergold site.
 # icon: rebel
 author:
   name: Jack Szwergold
   email: JackSzwergold@gmail.com
-homepage: https://github.com/jack-szwergold/grav-theme-arsaurum
+homepage: https://github.com/jack-szwergold/grav-theme-szwergold
 demo: http://demo.yoursite.com
 keywords: grav, theme, etc
-bugs: https://github.com/jack-szwergold/grav-theme-arsaurum/issues
-readme: https://github.com/jack-szwergold/grav-theme-arsaurum/blob/develop/README.md
+bugs: https://github.com/jack-szwergold/grav-theme-szwergold/issues
+readme: https://github.com/jack-szwergold/grav-theme-szwergold/blob/develop/README.md
 license: MIT
 
 dependencies:

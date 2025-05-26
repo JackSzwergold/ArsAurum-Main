@@ -4,4 +4,4 @@ The **Arsaurum** Theme is for [Grav CMS](https://github.com/getgrav/grav).  This
 
 ## Description
 
-The theme for the Ars Aurum site.
+The theme for the Szwergold site.
